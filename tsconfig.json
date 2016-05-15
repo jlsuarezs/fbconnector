@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "system",
+    "target": "ES5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "moduleResolution": "node"
+  },
+  "files": [
+    "fbconnector.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

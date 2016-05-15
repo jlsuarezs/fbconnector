@@ -1,0 +1,46 @@
+{
+  "name": "fbconnector",
+  "version": "0.0.1",
+  "description": "Easiest way to integrate Facebook Javascript SDK in your Angular2 application",
+  "main": "fbconnector.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlsuarezs/fbconnector.git"
+  },
+  "keywords": [
+    "angular2",
+    "facebook",
+    "ng2",
+    "fb"
+  ],
+  "author": "Juan Suarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlsuarezs/fbconnector/issues"
+  },
+  "homepage": "https://github.com/jlsuarezs/fbconnector#readme",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.1",
+    "es6-shim": "^0.35.0",
+    "es6-promise": "^3.0.2",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.19.26",
+    "zone.js": "^0.6.12"
+  },
+  "typings": "./lib/fbconnector.d.ts",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
