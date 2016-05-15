@@ -43,7 +43,7 @@ Open /src/system-config.ts to add:
 	const packages: any = {
 	  fbconnector: {
 	    defaultExtension: 'js',
-	    main: 'fbconnector.js'
+	    main: 'FBConnector.js'
 	  }
 	};
 
