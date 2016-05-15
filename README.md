@@ -49,14 +49,14 @@ Open /src/system-config.ts to add:
 
 And use it:
 
-import {FBConnector} from 'fbconnector/fbconnector';
+    import {FBConnector} from 'fbconnector/fbconnector';
 
 ...
 
-ngOnInit() {
-    var fbCon: FBConnector = new FBConnector('YOUR-FBAPPID-HERE');
-    fbCon.initFB();
-  }
+    ngOnInit() {
+        var fbCon: FBConnector = new FBConnector('YOUR-FBAPPID-HERE');
+        fbCon.initFB();
+    }
 
 ...
 
