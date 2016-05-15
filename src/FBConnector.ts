@@ -1,9 +1,9 @@
 export class FBConnector {
 
   constructor(appID:string) {
-    if (!window.fbAsyncInit) {
-      window.fbAsyncInit = function() {
-        FB.init({
+    if (!(<any>window).fbAsyncInit) {
+      (<any>window).fbAsyncInit = function() {
+        (<any>window).FB.init({
           appId: appID,
           xfbml: true,
           version: 'v2.6'

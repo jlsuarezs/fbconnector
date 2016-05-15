@@ -1,8 +1,11 @@
 {
   "name": "fbconnector",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Easiest way to integrate Facebook Javascript SDK in your Angular2 application",
   "main": "./src/fbconnector.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jlsuarezs/fbconnector.git"
